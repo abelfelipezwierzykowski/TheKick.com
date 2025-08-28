@@ -17,8 +17,3 @@ git push origin main = Envia os arquivos que foram alterados para o repositorio 
 git pull origin main = baixa para o repositorio local o que está no repositorio remoto
 
 em caso de conflito é preciso descidir qual parte do codigo irá manter-se
-
-como desfazer um commit: digita git log para aparecer o id do commit
-git revert id-do-commit
-
-vou fazer esse commit pra descomitar depois
