@@ -18,5 +18,7 @@ git pull origin main = baixa para o repositorio local o que está no repositorio
 
 em caso de conflito é preciso descidir qual parte do codigo irá manter-se
 
+como desfazer um commit: digita git log para aparecer o id do commit
+git revert id-do-commit
 
-teste de atividade sofre conflito
+vou fazer esse commit pra descomitar depois
