@@ -4,7 +4,7 @@ git commit -m "comentario"= envia os arquivos selecionado para o repositorio loc
 
 git status=verifica como estão os arquivos, se teve algum que foi alterado e nao foi comitado
 
-git log= mostra o historico
+git log= mostra o historico e os id de commit
 
 M: A letra M representa o estado Modified, do português modificado. Isso significa que o arquivo já existia no repositório, mas que recebeu alguma modificação que ainda não foi registrada no Git.
 
@@ -20,3 +20,5 @@ em caso de conflito é preciso descidir qual parte do codigo irá manter-se
 
 como desfazer um commit: digita git log para aparecer o id do commit
 git revert id-do-commit
+
+git resert --hard id-commit-anterior
