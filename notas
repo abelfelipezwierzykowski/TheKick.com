@@ -15,3 +15,5 @@ git remote=lista os repositorios remotos
 git push origin main = Envia os arquivos que foram alterados para o repositorio remoto(gitHub)
 
 git pull origin main = baixa para o repositorio local o que está no repositorio remoto
+
+em caso de conflito é preciso descidir qual parte do codigo irá manter-se
