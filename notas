@@ -21,4 +21,6 @@ em caso de conflito é preciso descidir qual parte do codigo irá manter-se
 como desfazer um commit: digita git log para aparecer o id do commit
 git revert id-do-commit
 
-git resert --hard id-commit-anterior
+git reset --hard id-commit-anterior
+
+git commit --amend -m "Assim podemos alterar o titulo do commit"
